@@ -1,0 +1,28 @@
+package modelo.vo;
+
+public class Requerimiento_3Vo {
+    // Su código
+    private Integer clasificacion;
+    private Double promedio_salario;
+
+    public Requerimiento_3Vo() {
+    }
+
+    public Integer getClasificacion() {
+        return clasificacion;
+    }
+    public void setClasificacion(Integer clasificacion) {
+        this.clasificacion = clasificacion;
+    }
+    public double getPromedio_salario() {
+        return promedio_salario;
+    }
+    public void setPromedio_salario(double promedio_salario) {
+        this.promedio_salario = promedio_salario;
+    }
+    @Override
+    public String toString() {
+        return clasificacion + " " + Math.round(promedio_salario);
+    }
+    
+}
