@@ -46,8 +46,3 @@ class Requerimiento_2Dao {}
 class Requerimiento_3Dao {}
 
 
-GEINER DAVID LARA RADA
-CC. 1062397510
-correo: davidlararada567@gmail.com
-formador: DANIEL PADILLA
-GRUPO 57
